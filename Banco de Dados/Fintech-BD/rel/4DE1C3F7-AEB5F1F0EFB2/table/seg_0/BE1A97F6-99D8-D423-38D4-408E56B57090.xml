@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE1A97F6-99D8-D423-38D4-408E56B57090" name="T_FNT_RECEBIMENTO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 03:30:10 UTC</createdTime>
+<generatorID>18FAFF14-1E4E-5A59-AF6A-0715432A3B0C</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_recebimento" id="D3F82D24-0EE4-83FE-E8A0-5B79AFD44DF8">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 03:30:10 UTC</createdTime>
+<generatorID>248D7E43-CB1C-BC5E-805F-9C700665900A</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FNT_USUARIO_cpf_usuario" id="315DCF06-4A68-173B-6339-0FAAB109D6B1">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 03:30:10 UTC</createdTime>
+<generatorID>AD60DDA8-EA7B-2A9B-F94D-0BCF5B28AB8A</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49312276-7289-CE61-E161-56D234B9D6F7" referredColumn="1357A59E-CD17-D54B-9B8A-B5B647D7BA2E"/>
+</associations>
+</Column>
+<Column name="vl_recebimento" id="7C960274-D47C-1DE6-27F7-92AD3AA7B511">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 03:30:10 UTC</createdTime>
+<generatorID>DEC11199-5223-3F6A-CF15-B5D235449B03</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,13,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_recebimento" id="B3A50F11-F594-AF39-E6D4-1CC79894C819">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 03:30:10 UTC</createdTime>
+<generatorID>8B7A3950-434D-8CDF-BEE8-02E83AD6CFAE</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao_recebimento" id="685ED13B-0B43-E490-4347-3B1F51B0A50D">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-30 00:04:04 UTC</createdTime>
+<generatorID>DE2DEA41-3158-5E78-31ED-E8F333FC9708</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F8232D1-BE3C-3BB9-806A-451ACEF68D12" name="T_FNT_RECEBIMENTO_PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 03:30:10 UTC</createdTime>
+<generatorID>3E47B557-E8AC-2389-0A89-56E97796C825</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="315DCF06-4A68-173B-6339-0FAAB109D6B1"/>
+<colUsage columnID="D3F82D24-0EE4-83FE-E8A0-5B79AFD44DF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D831A7CF-D89F-27E6-28BB-282887347A84" name="T_FNT_RECEBIMENTO_T_FNT_USUARIO_FK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 03:30:10 UTC</createdTime>
+<generatorID>0C6FEA7D-8944-80F5-A546-6742CB369E6C</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="315DCF06-4A68-173B-6339-0FAAB109D6B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

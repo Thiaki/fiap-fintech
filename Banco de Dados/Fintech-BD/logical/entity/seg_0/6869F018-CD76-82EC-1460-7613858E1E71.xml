@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6869F018-CD76-82EC-1460-7613858E1E71" name="T_FNT_DIVIDA">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 00:32:29 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_divida" id="425547EA-F8AD-C899-EE2B-863F02D78A41">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:34:56 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_usuario" id="68F99D9B-E654-001E-DFB0-00B11F106CAE">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:59:38 UTC</createdTime>
+<generatorID>289D28C5-006F-51C9-66F5-CFF24D20348E</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<referedAttribute>B18E8651-CB9B-E9B5-3CD4-69236CB5BF96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_divida" id="26753E94-01C3-4E4F-AF37-25175E819768">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:37:24 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,13,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_divida" id="31F273C4-23BA-BEA8-292D-1C29E3172079">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:37:31 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao_divida" id="F5F930B4-0D0A-7A31-EC29-7C8422E6BD39">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-30 00:02:49 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9EA44F0-D517-A48E-3BC1-2A588F6D0A78" name="T_FNT_DIVIDA PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:31:49 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68F99D9B-E654-001E-DFB0-00B11F106CAE</attributeRef>
+<attributeRef>425547EA-F8AD-C899-EE2B-863F02D78A41</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

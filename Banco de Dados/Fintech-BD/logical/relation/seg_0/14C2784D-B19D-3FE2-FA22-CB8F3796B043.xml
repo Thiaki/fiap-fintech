@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contemv1" directorySegmentName="seg_0" id="14C2784D-B19D-3FE2-FA22-CB8F3796B043">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:31:35 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<sourcePk>17B7410C-39FA-7E04-CC6F-388B86773C87</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A300CCD-58C9-56BD-9781-237C45EB077C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>33C5E186-4BC5-C7DF-DBCC-94904FC1F376</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

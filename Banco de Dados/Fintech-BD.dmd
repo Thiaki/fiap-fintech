@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Cap 07 Fintech" id="D67FD4CA-BEC5-EE60-FDEC-1DED952112C6" version="3.5">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 19:51:40 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D67FD4CA-BEC5-EE60-FDEC-1DED952112C6</designId>
+</OSDM_Design>

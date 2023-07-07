@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4514BAAC-AC34-5AAA-9FB7-124A8DC882D4">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-28 19:51:40 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

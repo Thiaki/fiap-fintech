@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EBCB2425-A614-3617-7CED-F8E111F745A1" containerWithKeyObject="F0D8800C-859F-1EB6-0ED7-AD7EF18C3361" localFKIndex="32278993-C164-01AC-A4C5-D8F9761B39E7" name="T_FNT_META_FINANCEIRA_T_FNT_USUARIO_FK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 03:30:10 UTC</createdTime>
+<generatorID>E1603B6B-80DA-28C8-BFBA-8A690E0C44E5</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<referredTableLongName>T_FNT_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8B7FD0C8-5D9A-E995-BDD6-C89225C05FDC</referredTableID>
+<keyObject>FD0157F3-6BB0-D08E-AA7C-E09B180D9728</keyObject>
+<referredKeyID>FD0157F3-6BB0-D08E-AA7C-E09B180D9728</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpf_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99EDB93A-4304-2ACF-5F3E-AF073608B3BE" name="T_FNT_INVESTIMENTO">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 00:32:35 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_recebimento" id="4AC83675-4B8C-C2AA-5F77-7EE1C87DB9B0">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:34:42 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_usuario" id="29112BC2-4497-807C-2E77-D14D7CAE6DBA">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:59:38 UTC</createdTime>
+<generatorID>EC22CC36-75F0-EFEC-C5DD-A3C36479EA18</generatorID>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<referedAttribute>B18E8651-CB9B-E9B5-3CD4-69236CB5BF96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_investimento" id="EE2376CB-7F14-4D9B-07A5-E0CA879BEAAD">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:36:50 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,13,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_investimento" id="622DA9BF-C5A8-340A-9FED-8B6B0831D9FF">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:36:58 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descicao_investimento" id="14144FD9-C098-76FE-B585-5C87CC794D07">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-30 00:00:46 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A9D6B04-9BBA-FFED-D09D-17473A1541A2" name="T_FNT_INVESTIMENTO PK">
+<createdBy>Thiaki</createdBy>
+<createdTime>2023-05-29 02:31:45 UTC</createdTime>
+<ownerDesignName>Cap 07 Fintech</ownerDesignName>
+<engineerTo>
+<item key="4DE1C3F7-D830-B336-CF8C-AEB5F1F0EFB2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29112BC2-4497-807C-2E77-D14D7CAE6DBA</attributeRef>
+<attributeRef>4AC83675-4B8C-C2AA-5F77-7EE1C87DB9B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
